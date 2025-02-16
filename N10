@@ -1,0 +1,2 @@
+dist=int(input('Введите расстояние'))
+print(int(dist/1609.34))
