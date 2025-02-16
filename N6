@@ -1,0 +1,3 @@
+weight=int(input('Введите вес'))
+hight=int(input('Введите рост'))/100
+print(round(weight/hight**2, 2))
