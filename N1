@@ -1,0 +1,5 @@
+S_watch=96
+G_watch=S_watch//16
+amount=int(input('Введите общую стоимость часов:'))
+S_value=48
+print(int((amount-S_value*S_watch)//G_watch))
